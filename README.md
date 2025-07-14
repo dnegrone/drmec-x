@@ -42,7 +42,7 @@ Certifique-se de ter instalado:
 
 ```bash
 git clone [URL_DO_SEU_REPOSITORIO_GIT]
-cd farmaciam-llm-rag # Ou o nome da pasta do seu projeto
+cd drmec-x # Ou o nome da pasta do seu projeto
 ```
 
 ### 2. Configurar o Ambiente Virtual
@@ -50,7 +50,7 @@ cd farmaciam-llm-rag # Ou o nome da pasta do seu projeto
 É altamente recomendável usar um ambiente virtual para gerenciar as dependências do projeto.
 
 ```bash
-python3.9 -m venv venv
+python3 -m venv venv
 source venv/bin/activate # No Linux/macOS
 # venv\Scripts\activate # No Windows
 ```
@@ -84,7 +84,7 @@ Espere o download ser concluído e o modelo inicializar. Você pode fechar o ter
 Com todas as dependências instaladas e o Ollama rodando, inicie o aplicativo.
 
 ```bash
-streamlit run app.py
+streamlit run streamlit_app.py
 ```
 
 (Se você ainda tem a estrutura de pastas `pages/`, o comando seria `streamlit run streamlit_app.py`)
