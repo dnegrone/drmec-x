@@ -41,7 +41,7 @@ Certifique-se de ter instalado:
 ### 1. Clonar o Repositório
 
 ```bash
-git clone [URL_DO_SEU_REPOSITORIO_GIT]
+git clone https://github.com/dnegrone/drmec-x.git
 cd drmec-x # Ou o nome da pasta do seu projeto
 ```
 
