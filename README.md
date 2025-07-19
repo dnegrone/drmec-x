@@ -50,7 +50,7 @@ cd drmec-x # Ou o nome da pasta do seu projeto
 É altamente recomendável usar um ambiente virtual para gerenciar as dependências do projeto.
 
 ```bash
-python3 -m venv venv
+python3 -m venv venv (ou python -m venv venv)
 source venv/bin/activate # No Linux/macOS
 # venv\Scripts\activate # No Windows
 ```
